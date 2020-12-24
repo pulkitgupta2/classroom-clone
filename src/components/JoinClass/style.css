@@ -1,0 +1,99 @@
+.joinClass {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  padding: 0 24px;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.joinClass__wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.0625rem solid #e0e0e0;
+  padding: 0.5rem 1rem;
+  width: 98vw;
+}
+
+.joinClass__wraper2 {
+  height: 48px;
+  color: #5f6368;
+  fill: #5f6368;
+  display: flex;
+  align-items: center;
+}
+.joinClass__topHead {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: #80868b;
+  margin-left: 1rem;
+}
+.joinClass__svg {
+  cursor: pointer;
+}
+.joinClass__btn {
+  width: 40px !important;
+  height: 40px !important;
+}
+.joinClass__form {
+  margin-top: 1rem;
+  max-width: 35rem;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  width: 100%;
+  background-color: #fff;
+  border: 0.0625rem solid #dadce0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.joinClass__formText {
+  color: #7f7f7f;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+.joinClass__loginInfo {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.joinClass__loginName {
+  letter-spacing: 0.01785714em;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #3c4043;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+.joinClass__loginEmail {
+  letter-spacing: 0.025em;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: #5f6368;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+.joinClass__loginText {
+  margin-left: 15px;
+  width: 80%;
+}
+.joinClass__classLeft {
+  display: flex;
+}

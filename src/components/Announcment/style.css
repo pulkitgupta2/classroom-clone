@@ -1,0 +1,27 @@
+.amt {
+  background-color: #fff;
+  border: 0.0625rem solid #dadce0;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.amt__top {
+  display: flex;
+  align-items: center;
+}
+.amt__top > * {
+  margin-left: 10px;
+}
+.amt__Cnt {
+  padding: 0.5rem 0;
+}
+.amt__txt {
+  margin: 10px 15px;
+}
+.amt__img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  margin-left: 10px;
+}
